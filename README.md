@@ -1,6 +1,6 @@
 # Using Pre-Training Can Improve Model Robustness and Uncertainty
 
-This repository contains the essential code for the paper [_Using Pre-Training Can Improve Model Robustness and Uncertainty_](https://github.com/hendrycks/pre-training/blob/master/Using_Pre_Training_Can_Improve_Model_Robustness_and_Uncertainty.pdf).
+This repository contains the essential code for the paper [_Using Pre-Training Can Improve Model Robustness and Uncertainty_](https://arxiv.org/abs/1901.09960).
 
 Requires Python 3+ and PyTorch 0.4.1+.
 
