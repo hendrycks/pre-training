@@ -18,7 +18,7 @@ If you find this useful in your research, please consider citing:
     @article{hendrycks2019pretraining,
       title={Using Pre-Training Can Improve Model Robustness and Uncertainty},
       author={Hendrycks, Dan and Lee, Kimin and Mazeika, Mantas},
-      journal={Proceedings of the International Conference on Machine Learning (ICML)},
+      journal={Proceedings of the International Conference on Machine Learning},
       year={2019}
     }
 
