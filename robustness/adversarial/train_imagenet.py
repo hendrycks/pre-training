@@ -110,7 +110,7 @@ scheduler = torch.optim.lr_scheduler.LambdaLR(
         1e-6 / args.learning_rate))
 
 
-adversary = attacks.PGD(epsilon=8./255, num_steps=10, step_size=2./255).cuda()
+adversary = attacks.PGD_linf(epsilon=8./255, num_steps=10, step_size=2./255).cuda()
 
 # /////////////// Training ///////////////
 

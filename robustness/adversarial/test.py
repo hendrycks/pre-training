@@ -109,7 +109,7 @@ if args.ngpu > 0:
 cudnn.benchmark = True  # fire on all cylinders
 
 
-adversary = attacks.PGD(epsilon=8./255, num_steps=20, step_size=2./255).cuda()
+adversary = attacks.PGD_linf(epsilon=8./255, num_steps=20, step_size=2./255).cuda()
 
 
 def evaluate(adv=True):
